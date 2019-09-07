@@ -1,0 +1,185 @@
+html {
+  width: 960px;
+  margin: 15px auto;
+}
+
+/* HEADER */
+header {
+  overflow: auto;
+  width: 100%;
+}
+#logo img {
+  float: left;
+  height: 45px;
+  margin-right: 10px;
+}
+#logo h3 {
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-size: 35px;
+}
+#logo h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+#logo {
+  float: left;
+  margin-bottom: 15px;
+  width: 480px;
+}
+#icons {
+  text-align: right;
+  float: left;
+  width: 480px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+#icons img:nth-child(6) {
+  margin-right: 10px;
+}
+
+/* MAIN */
+
+/* TOP PART */
+#main-logo {
+  padding-top: 30px;
+  border-top: 1px solid black;
+}
+#main-logo h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+}
+#main-logo h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  width: 480px;
+  float: left;
+  margin-bottom: 15px;
+}
+#print * {
+  float: right;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  /* margin-bottom: 15px; */
+}
+#print:hover {
+  cursor: pointer;
+  transition: 300ms;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.5);
+}
+#print{
+  float: right;
+  padding: 5px;
+}
+#print p {
+  margin-left: 5px;
+}
+#hero {
+  width: 960px;
+  margin-bottom: 15px 0;
+}
+
+/* TEXT */
+#main-text p {
+  text-indent: 2em;
+  line-height: 1.3em;
+  margin-bottom: 15px;
+  font-size: 14pt;
+  text-align: justify;
+}
+
+/* RECIPE */
+#recipe {
+  background-image: url("/img/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: 960px 300px;
+  width: 960px;
+  height: 300px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+#recipe div {
+  float: left;
+  width: 400px;
+  padding-left: 80px;
+  padding-top: 36px;
+  font-family: 'Chilanka', cursive;
+  font-size: 20px;
+}
+#recipe div li {
+  line-height: 31px;
+}
+#recipe input {
+  width: 20px;
+  height: 20px;
+}
+input[type=checkbox] + label {
+  
+}
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+#share img {
+  float: left;
+  margin-right: 15px;
+}
+#share h5 {
+  float: left;
+  width: 600px;
+  font-weight: bold;
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+#share p {
+  float: left;
+  width: 550px;
+  font-size: 14pt;
+}
+#share button {
+  margin-top: 10px;
+  float: right;
+  background: brown;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline:none;
+}
+#share button:hover {
+  background: rgb(80, 26, 26);
+  transition: 300ms;
+}
+#share {
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+footer img {
+  position: relative;
+  top: -16px;
+}
+#split-border span {
+  position: relative;
+}
+#split-border span::before, 
+#split-border span::after {
+  border-bottom: 1px solid black;
+  content: "";
+  position: absolute;
+  width: 460px;
+} 
+
+#split-border span::before {
+  margin-right: 20px;
+  right: 100%
+}
+
+#split-border span::after {
+  margin-left: 20px;
+}
