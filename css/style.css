@@ -64,11 +64,13 @@ header {
 }
 #print:hover {
   cursor: pointer;
-  color: red;
   transition: 300ms;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.5);
 }
 #print{
   float: right;
+  padding: 5px;
 }
 #print p {
   margin-left: 5px;
@@ -97,6 +99,27 @@ header {
   padding-bottom: 20px;
   margin-bottom: 15px;
   border-bottom: 1px solid black;
+}
+#recipe div {
+  float: left;
+  width: 400px;
+  padding-left: 80px;
+  padding-top: 36px;
+  font-family: 'Chilanka', cursive;
+  font-size: 20px;
+}
+#recipe div li {
+  line-height: 31px;
+}
+#recipe input {
+  width: 20px;
+  height: 20px;
+}
+input[type=checkbox] + label {
+  
+}
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
 }
 #share img {
   float: left;
