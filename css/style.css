@@ -34,7 +34,9 @@ header {
   height: 45px;
   margin-bottom: 15px;
 }
-#icons img:nth-child(6) {
+
+/* HAD TO CHANGE img TO a */
+#icons a:nth-child(6) {
   margin-right: 10px;
 }
 #icons img:hover{
@@ -95,7 +97,7 @@ header {
 
 /* RECIPE */
 #recipe {
-  background-image: url("/img/list-bg.png");
+  background-image: url("../img/list-bg.png");
   background-repeat: no-repeat;
   background-size: 960px 300px;
   width: 960px;
