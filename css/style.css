@@ -34,8 +34,6 @@ header {
   height: 45px;
   margin-bottom: 15px;
 }
-
-/* HAD TO CHANGE img TO a */
 #icons a:nth-child(6) {
   margin-right: 10px;
 }
@@ -124,6 +122,8 @@ header {
 input[type=checkbox]:checked + label {
   text-decoration: line-through;
 }
+
+/* SHARE */
 #share img {
   float: left;
   margin-right: 15px;
@@ -159,6 +159,7 @@ input[type=checkbox]:checked + label {
   margin-bottom: 50px;
 }
 
+/* FOOTER */
 footer {
   clear: both;
   text-align: center;
@@ -177,12 +178,10 @@ footer img {
   position: absolute;
   width: 460px;
 } 
-
 #split-border span::before {
   margin-right: 20px;
   right: 100%
 }
-
 #split-border span::after {
   margin-left: 20px;
 }
