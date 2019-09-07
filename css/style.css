@@ -95,7 +95,7 @@ header {
 
 /* RECIPE */
 #recipe {
-  background-image: url("/img/list-bg.png");
+  background-image: url("../img/list-bg.png");
   background-repeat: no-repeat;
   background-size: 960px 300px;
   width: 960px;
