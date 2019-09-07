@@ -37,7 +37,11 @@ header {
 #icons img:nth-child(6) {
   margin-right: 10px;
 }
-
+#icons img:hover{
+  transform: translateY(2px);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
 /* MAIN */
 
 /* TOP PART */
@@ -48,19 +52,19 @@ header {
 #main-logo h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 35px;
+  margin-bottom: 5px;
 }
 #main-logo h2 {
+  float: left;
   font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
   width: 480px;
-  float: left;
-  margin-bottom: 15px;
+  padding-top: 5px;
 }
 #print * {
   float: right;
   font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
-  /* margin-bottom: 15px; */
 }
 #print:hover {
   cursor: pointer;
@@ -114,9 +118,6 @@ header {
 #recipe input {
   width: 20px;
   height: 20px;
-}
-input[type=checkbox] + label {
-  
 }
 input[type=checkbox]:checked + label {
   text-decoration: line-through;
