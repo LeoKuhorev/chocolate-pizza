@@ -118,13 +118,13 @@ header {
 #recipe div li {
   line-height: 31px;
 }
+
+/* CHECKBOXES */
 #recipe input {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
-
-/* CHECKBOXES */
 input[type=checkbox]:checked + label {
   text-decoration: line-through;
 }
