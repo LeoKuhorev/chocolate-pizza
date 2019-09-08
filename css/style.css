@@ -121,6 +121,7 @@ header {
 #recipe input {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 /* CHECKBOXES */
