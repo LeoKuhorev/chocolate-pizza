@@ -2,7 +2,9 @@
 ### CSS Layout exercise 
 
 Link to deployes site: https://leokuhorev.github.io/chocolate-pizza/
-![original design:](img/PREVIEW.jpg)
+
+**ORIGINAL DESIGN:**
+![original design](img/PREVIEW.jpg)
 
 -----------------------------------------
 
