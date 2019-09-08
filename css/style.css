@@ -1,6 +1,6 @@
 html {
   width: 960px;
-  margin: 15px auto;
+  margin: 30px auto;
 }
 
 /* HEADER */
@@ -14,8 +14,8 @@ header {
   margin-right: 10px;
 }
 #logo h3 {
-  font-family: 'Pacifico', cursive;
-  font-style: italic;
+  font-family: 'Yellowtail', cursive;
+  font-weight: 600;
   font-size: 35px;
 }
 #logo h4 {
@@ -34,8 +34,6 @@ header {
   height: 45px;
   margin-bottom: 15px;
 }
-
-/* HAD TO CHANGE img TO a */
 #icons a:nth-child(6) {
   margin-right: 10px;
 }
@@ -44,12 +42,17 @@ header {
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.5);
   cursor: pointer;
 }
+
 /* MAIN */
+.line {
+  height: 10px;
+  width: 960px;
+  background-image: url("../img/hr-img.png");
+}
 
 /* TOP PART */
 #main-logo {
-  padding-top: 30px;
-  border-top: 1px solid black;
+  padding-top: 40px;
 }
 #main-logo h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -83,7 +86,7 @@ header {
 }
 #hero {
   width: 960px;
-  margin-bottom: 15px 0;
+  margin: 15px 0;
 }
 
 /* TEXT */
@@ -102,9 +105,7 @@ header {
   background-size: 960px 300px;
   width: 960px;
   height: 300px;
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid black;
+  margin-bottom: 35px;
 }
 #recipe div {
   float: left;
@@ -123,6 +124,13 @@ header {
 }
 input[type=checkbox]:checked + label {
   text-decoration: line-through;
+}
+
+/* SHARE */
+#share {
+  overflow: auto;
+  width: 100%;
+  margin: 20px 0 50px 0;
 }
 #share img {
   float: left;
@@ -153,15 +161,12 @@ input[type=checkbox]:checked + label {
   background: rgb(80, 26, 26);
   transition: 300ms;
 }
-#share {
-  overflow: auto;
-  width: 100%;
-  margin-bottom: 50px;
-}
 
+/* FOOTER */
 footer {
   clear: both;
   text-align: center;
+  color: gray;
 }
 footer img {
   position: relative;
@@ -177,12 +182,10 @@ footer img {
   position: absolute;
   width: 460px;
 } 
-
 #split-border span::before {
   margin-right: 20px;
   right: 100%
 }
-
 #split-border span::after {
   margin-left: 20px;
 }
